@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/232px-Spotify_icon.svg.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Sans&family=Raleway:wght@200;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Spotify</title>
 </head>
 
@@ -14,25 +15,33 @@
     <div class="container">
 
             <div class="menu">
-                <h1 class="white">
-                    Spotify
-                </h1>
+                <div class="white logo">
+                    <img src="img/favicon.ico" alt=""> <span id="spotify">Spotify</span>
+                </div>
                 <ul class="text gray">
                     <li>
-                        Home
+                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        <span class="text">Home</span>
                     </li>
                     <li>
-                        Cerca
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                        <span class="text">Cerca</span>
                     </li>
                     <li>
-                        La tua libreria
+                        <i class="fa-regular fa-bookmark" style="color: #ffffff;"></i>
+                        <span class="text">La tua libreria</span>
                     </li>
     
                     <h2 class="white">
                         PLAYLIST
                     </h2>
                     <ul class="text gray">
-                        <li>Crea Playlist</li>
+                        <li>
+                            <span class="text">
+                                <i class="fa-solid fa-square-plus" style="color: #808080;"></i>
+                                <span class="crea-playlist">Crea Playlist</span>
+                            </span>
+                        </li>
                     </ul>
     
                     <ul class="text gray">
@@ -47,10 +56,13 @@
     
                 </ul>
     
-                <div class="foot-menu">
-                    <p class="text gray">Installa App</p>
-                    <hr>
-                    <p class="text gray">Jonh Doe</p>
+                <div class="foot-menu gray">
+                    <i class="fa-regular fa-circle-down" style="color: #ffffff;"></i>
+                    <span class="text">Installa app</span>
+
+                    <p class="text white">
+                        <i class="fa-duotone fa-circle-user" style="--fa-primary-color: #ffffff; --fa-secondary-color: #9b9b9b;"></i>
+                        <span class="text">Jonh Doe</span></p>
                 </div>
             </div>
 

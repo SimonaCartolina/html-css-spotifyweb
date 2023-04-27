@@ -16,10 +16,14 @@ h2{
 }
 .testo-albums h3{
     font-size:0.83rem;
+    margin-bottom:0.30rem;
 }
-
+ul{
+    margin-bottom:0.90rem;
+}
 li{
     list-style: none;
+    margin-top:0.77rem;
 }
 
 .container{
@@ -29,22 +33,55 @@ li{
     width:100%;
 }
 
-
+/*MENU*/
 
 .menu{
-    width:17%;
+    width:15%;
     height:90vh;
-    background-color: brown;
+    background-color:#000000;
     padding-left:1rem;
+}
+#spotify{
+    font-size:1.2rem;
+    position:relative;
+    bottom:0.70rem;
+}
+.menu h2{
+    font-size:0.82rem;
+}
+.menu img{
+    padding-top:1.5rem;
+    
+}
+
+.menu i{
+    font-size:1rem;
+    margin-right:0.30rem;
+}
+.menu .fa-square-plus{
+    font-size:2rem;
+}
+.menu .crea-playlist{
+    position:relative;
+    bottom:0.45rem;
+    font-size: 0.70rem;
+
 }
 .foot-menu{
     position:relative;
-    top:54%;
+    top:27%;
 }
 .foot-menu p{
+    border-top:1px solid gray;
     padding-top:0.40rem;
-    padding-bottom:0.40rem;
+    margin-top:0.40rem;
 }
+
+.foot-menu .white{
+    font-size:0.80rem;
+
+}
+/* EFFETTUA L' UPGRADE*/
 
 .upgrade{
     height:10%;
@@ -65,6 +102,7 @@ li{
     background-color: rgba(2, 1, 42, 0.645);
     border-radius:25px;
 }
+/* NAV TASTI IN EVIDENZA, SOTTO "effettua l' upgrade"*/
 
 .evidenza{
     height:10%;
@@ -78,6 +116,8 @@ li{
     margin-right:1rem;
     font-size:0.70rem;
 }
+
+/*MAIN PART WITH ALBUMS*/
 
 .contents{
     overflow: scroll;
@@ -113,7 +153,7 @@ li{
     font-size:0.60rem;
 }
 
-
+/*FOOTER*/
 footer{
     width: 100%;
     height:10vh;
@@ -128,6 +168,7 @@ footer{
     justify-content: space-between;
 }
 
+/* classi di colori generali per il colore del testo*/
 
 .gray{
     color:gray;
