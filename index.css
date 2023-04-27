@@ -284,7 +284,10 @@ footer{
     color:white;
     transition: all 0.80s ease;
 }
-.text-white:hover{
-    color:gray;
-    transition: all 0.80s ease;
+
+a{
+    text-decoration: none;
+}
+.brano:hover{
+    text-decoration: underline;
 }
