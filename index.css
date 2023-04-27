@@ -258,11 +258,13 @@ footer{
 }
 /*barra volume grande*/
 .grande{
-    width:30rem;
+    width:20rem;
     margin:0 0.50rem 0 0.50rem;
+    margin-right:10rem;
 }
 .container-barragrande{
     margin-top:0.50rem;
+    padding-left:2.5rem;
 }
 .volume{
     background-color: lightgreen;
