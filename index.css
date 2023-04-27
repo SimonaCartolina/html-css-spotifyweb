@@ -272,10 +272,19 @@ footer{
 }
 .barra-volume:active .volume{
     display:block;
-    transition: 2s ease-in;
+    transition: 1s ease-in;
 }
 .barra-volume:active .ball-volume{
     display:block;
-    transition: 2s ease-in;
+    transition: 1s ease-in;
 
+}
+
+.text-gray:hover{
+    color:white;
+    transition: all 0.80s ease;
+}
+.text-white:hover{
+    color:gray;
+    transition: all 0.80s ease;
 }
