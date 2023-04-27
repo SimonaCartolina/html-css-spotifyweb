@@ -181,6 +181,8 @@ footer{
     display:flex;
     flex-direction:row;
 }
+
+
 .container-sinister{
     width:2.5rem;
     height:2.5rem;
@@ -192,20 +194,30 @@ footer{
     display:block;
 }
 
+
+
 .icons{
     margin-left:2.5rem;
 }
 .icons i{
     padding-top:0.55rem;
     margin-right:0.80rem;
+    font-size:0.80rem;
 }
+
+
 .music{
     font-size: 1.2rem;
-    margin-left:12rem;
+    padding-left:12rem;
+    padding-right:12rem;
+    background-color: aqua;
 }
 .music i{
-    padding:1rem;
+    padding-right:1rem;
+    padding-left:1rem;
 }
+
+
 /* classi di colori generali per il colore del testo*/
 
 .text-gray{
@@ -214,4 +226,19 @@ footer{
 }
 .text-white{
     color:white;
+    font-size:0.60rem;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+.barra-volume{
+    background-color: white;
+    border-radius: 20px;
+    align-self:center;
+    height:0.20rem;
+    width:7rem;
+    margin-bottom:0.50rem;
+    
 }
