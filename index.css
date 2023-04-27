@@ -46,12 +46,19 @@ li{
     position:relative;
     bottom:0.70rem;
 }
+
+.menu .fa-spotify{
+    font-size:2rem;
+}
+.menu .logo{
+    padding-top:1rem;
+    padding-bottom:0.75rem;
+}
 .menu h2{
     font-size:0.82rem;
 }
 .menu img{
     padding-top:1.5rem;
-    
 }
 
 .menu i{
@@ -73,6 +80,7 @@ li{
 }
 .foot-menu p{
     border-top:1px solid gray;
+    font-size:0.72rem;
     padding-top:0.40rem;
     margin-top:0.40rem;
 }
@@ -170,10 +178,10 @@ footer{
 
 /* classi di colori generali per il colore del testo*/
 
-.gray{
+.text-gray{
     color:gray;
     font-size:0.60rem;
 }
-.white{
+.text-white{
     color:white;
 }
