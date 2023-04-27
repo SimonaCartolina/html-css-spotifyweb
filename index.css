@@ -84,6 +84,9 @@ li{
     margin-right:1rem;
     background-color: orangered;
 }
+.border-radius img{
+    border-radius: 50%;
+}
 
 .albums{
     margin-top:1.7rem;
