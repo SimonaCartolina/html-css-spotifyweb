@@ -72,7 +72,8 @@ li{
 }
 
 .contents{
-    overflow: auto;
+    overflow: scroll;
+    height:80vh;
     background-color: aquamarine;
     width:100%;
     padding-left:1.5rem;
