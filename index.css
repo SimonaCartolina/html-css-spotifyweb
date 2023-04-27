@@ -242,13 +242,40 @@ footer{
     height:0.20rem;
     width:7rem;
     margin-bottom:0.50rem;
+    position:relative;
+}
+.ball-volume{
+    background-color: white;
+    height:0.75rem;
+    width:0.75rem;
+    border-radius:50%;
+    display:none;
+
+    position:absolute;
+    bottom:0.090rem;
+    top:0.0001rem;
+    left:18%;
+}
+/*barra volume grande*/
+.grande{
+    width:30rem;
+    margin:0 0.50rem 0 0.50rem;
+}
+.container-barragrande{
+    margin-top:0.50rem;
 }
 .volume{
-    background-color: green;
-    width:3rem;
+    background-color: lightgreen;
+    width:20%;
     height:100%;
     display:none;
 }
 .barra-volume:active .volume{
     display:block;
+    transition: 2s ease-in;
+}
+.barra-volume:active .ball-volume{
+    display:block;
+    transition: 2s ease-in;
+
 }
