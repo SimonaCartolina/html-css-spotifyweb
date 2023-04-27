@@ -34,7 +34,11 @@ li{
 }
 .foot-menu{
     position:relative;
-    top:49%;
+    top:54%;
+}
+.foot-menu p{
+    padding-top:0.40rem;
+    padding-bottom:0.40rem;
 }
 
 .upgrade{
