@@ -9,6 +9,9 @@ main{
     height:90vh;
     width:100%;
 }
+h2{
+    margin-top:1rem;
+}
 
 li{
     list-style: none;
@@ -71,7 +74,6 @@ li{
 .contents{
     overflow: auto;
     background-color: aquamarine;
-    height:90%;
     width:100%;
     padding-left:1.5rem;
 }
@@ -84,7 +86,7 @@ li{
 
 .albums{
     margin-top:1.7rem;
-    margin-bottom:1rem;
+    margin-bottom:7rem;
     display:flex;
     flex-direction:row;
     background-color: green;
@@ -99,6 +101,7 @@ li{
 }
 .testo-albums{
     text-align:center;
+    font-size:0.80rem;
 }
 
 
@@ -119,7 +122,7 @@ footer{
 
 .gray{
     color:gray;
-    font-size:0.90rem;
+    font-size:0.80rem;
 }
 .white{
     color:white;
