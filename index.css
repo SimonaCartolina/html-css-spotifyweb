@@ -494,6 +494,8 @@
     
     .evidenza{
         height:4%;
+        flex-wrap:wrap;
+        padding:4rem;
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -508,9 +510,12 @@
     .evidenza div:first-child{
         border-bottom:2px solid greenyellow;
     }
+    .evidenza div:last-child{
+        margin-top:1.6rem;
+    }
 
     .contents h2{
-        margin-top:3rem;
+        margin-top:1.5rem;
         font-size:1.12rem;
     }
 
