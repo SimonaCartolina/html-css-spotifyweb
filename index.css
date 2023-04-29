@@ -1332,7 +1332,7 @@
 
 
 
-@media screen and (max-height:450px) {
+@media screen and (max-height:350px) {
 
     *{
         padding:0;
@@ -1346,7 +1346,6 @@
     main{
         height:90vh;
         width:100%;
-        overflow: scroll;
     }
     h2{
         margin-top:1rem;
@@ -1379,7 +1378,7 @@
         height:90vh;
         background-color:#000000;
         padding-left:1rem;
-        overflow: scroll;
+        overflow:scroll;
     }
     #spotify{
         font-size:1.2rem;
@@ -1432,7 +1431,7 @@
     /* EFFETTUA L' UPGRADE*/
     
     .upgrade{
-        height:20%;
+        height:8%;
         width:100%;
         background-color:#080B12;
         padding-right:1rem;
@@ -1457,7 +1456,7 @@
         display:flex;
         flex-direction: row;
         justify-content: center;
-        padding-top:3rem;
+        padding-top:1rem;
         background-color: #141922;
     }
     .evidenza div{
@@ -1468,6 +1467,7 @@
     /*MAIN PART WITH ALBUMS*/
     
     .contents{
+        overflow: scroll;
         height:80vh;
         background-color: #141922;
         width:100%;
@@ -1547,8 +1547,10 @@
     
     
     .music{
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-right:2rem;
+        padding-left:6rem;
+        margin-bottom:1rem;
     }
     .music i{
         padding-right:1rem;
