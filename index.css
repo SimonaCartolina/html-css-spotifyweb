@@ -508,7 +508,7 @@
         font-size:0.70rem;
     }
     .evidenza div:first-child{
-        border-bottom:2px solid greenyellow;
+        text-decoration:underline 2px yellowgreen;
     }
     .evidenza div:last-child{
         margin-top:1.6rem;
@@ -969,6 +969,10 @@
     p.brano{
         display:inline-block;
         width:3.9rem;
+    }
+
+    .evidenza div:first-child{
+        text-decoration:underline 2px yellowgreen;
     }
 
     div.last-icons{
